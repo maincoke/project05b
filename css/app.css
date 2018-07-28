@@ -1,0 +1,85 @@
+/* -- // Estilos propios del Blog ---->
+*/
+
+.body-style {
+    background: url("../img/bg-blog.jpg") no-repeat top !important;
+    background-size: 100%;
+}
+
+.b-radius {
+    border-radius: 5px !important;
+}
+
+.wh-text {
+    color: white !important;
+    background: transparent !important;
+}
+
+.callout.primary,
+.top-bar {
+    background: transparent !important;
+}
+
+.callout.secondary {
+    background: #1c4900a9 !important;
+}
+
+.callout.success {
+    background: #1c4900a9 !important;
+    border: 1px solid #c7ff00;
+}
+
+.row-logo {
+    max-height: 10rem !important;
+}
+
+.img-logo-bar {
+    max-width: 3rem;
+    max-height: 2rem;
+    padding-right: 0.5rem;
+}
+
+.size-icon-bar {
+    font-size: 24px;
+}
+
+.size-icon-rs {
+    font-size: 24px;
+}
+
+.bar-top {
+    background-color: #1c4900a9 !important;
+    padding: 0.5rem !important;
+    box-shadow: -2px 2px 2px #c7ff00a9 !important;
+}
+
+.bar-top-padding {
+    padding-bottom: 0.5rem !important;
+}
+
+.input-group {
+    max-height: 4rem;
+}
+
+.top-bar-right li.padding-0 {
+    padding: 0 0.3rem 0 0 !important;
+}
+
+
+/* ** -----------/- Estilo responsivo para los tamaños de Pantalla -\------------ ** */
+
+@media (max-width: 638px) {
+    .img-logo-bar {
+        max-width: 4.5rem;
+        max-height: 3.5rem;
+    }
+    small {
+        font-size: 70% !important;
+    }
+}
+
+@media (max-width: 764px) {
+    h5 {
+        font-size: 18px;
+    }
+}
