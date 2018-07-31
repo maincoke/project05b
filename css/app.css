@@ -20,19 +20,20 @@
   background: transparent !important;
 }
 
-.callout.secondary {
-  background: #1c4900a9 !important;
-}
-
 .callout.success {
   background: #1c4900a9 !important;
   border: 1px solid #c7ff00;
 }
 
 .callout.warning,
+.callout.secondary,
 textarea {
   padding: 0.5rem !important;
   margin: 0 0.5rem 0 0.5rem !important;
+}
+
+.callout.alert.small {
+  margin: 0 0 0.5rem 0 !important;
 }
 
 .row-logo {
@@ -79,13 +80,29 @@ td a:hover {
   color: #1c4900 !important;
 }
 
+.card-divider {
+  padding: 0.5rem !important;
+  display: initial;
+}
+
 .card-section .input-group,
 textarea {
   max-height: 6rem !important;
 }
 
 .img-comment {
-  height: 3.5rem !important;
+  max-height: 3rem !important;
+  height: 100% !important;
+  margin: 0 0.5rem 0 0 !important;
+}
+
+.small-12 .h6 {
+  line-height: 1em !important;
+}
+
+.h4 small {
+  padding: 0.5rem 0 0 0.5rem !important;
+  font-size: 60%;
 }
 
 
@@ -106,6 +123,10 @@ textarea {
   #side-menu li a.size-icon,
   #side-menu li a i.size-icon {
     font-size: 12px;
+  }
+  .card-section,
+  textarea {
+    font-size: 85%;
   }
 }
 
