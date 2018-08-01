@@ -21,13 +21,17 @@
   background: transparent !important;
 }
 
+.callout.secondary {
+  padding: 0.5rem !important;
+  margin: 0 0.5rem 1rem 0.5rem !important;
+}
+
 .callout.success {
   background: #1c4900a9 !important;
   border: 1px solid #c7ff00;
 }
 
 .callout.warning,
-.callout.secondary,
 textarea {
   padding: 0.5rem !important;
   margin: 0 0.5rem 0 0.5rem !important;
@@ -103,7 +107,7 @@ textarea {
 
 .h4 small {
   padding: 0.5rem 0 0 0.5rem !important;
-  font-size: 60%;
+  font-size: 65%;
 }
 
 
