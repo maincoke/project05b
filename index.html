@@ -12,10 +12,12 @@
 </head>
 
 <body class="body-style">
+  <!-- // Contenedor principal - Todo el contenido empotrado en este contenedor responsivo \\ -->
   <div class="row columns flex-container padding-vertical-0">
-    <!-- -->
+    <!-- ** Encabezado - Contenido de identificación, Slogan, acceso y barra de navegación superior del Blog ** -->
     <header class="row callout success border-none padding-0 margin-vertical-0">
       <div class="columns medium-3 large-4 padding-0 hide-for-small-only">
+        <!-- || Logo y Slogan / Identificación en pantallas anchas (+640px) || -->
         <div class="callout primary border-none margin-0">
           <div class="columns small-12 medium-9 large-7 callout primary border-none margin-0 padding-0">
             <img src="./img/healthy-plate-logo.png" alt="Healthy Plate Logo" class="width-100">
@@ -24,6 +26,7 @@
         </div>
       </div>
       <div class="columns small-12 medium-9 large-8 padding-0">
+        <!-- || Barra supeior / Barra de navegación y acceso al Blog / Responsiva en pantallas pequeñas, medianas y anchas || -->
         <nav class="row columns bar-top padding-0 expanded" id="navbar-top">
           <div class="row columns small-12 bar-top-padding padding-0">
             <div class="top-bar padding-0 border-none">
@@ -51,15 +54,12 @@
               </ul>
             </div>
           </div>
+          <!-- || Barra de Acceso al Blog / Responsivo y no se visualiza en pantallas pequeñas (-640px) -->
           <div class="row columns medium-12 padding-0 hide-for-small-only">
             <div class="input-group margin-0">
-              <span class="input-group-label b-radius">
-                <i class="step fi-torso size-icon"></i>
-              </span>
+              <span class="input-group-label b-radius"><i class="step fi-torso size-icon"></i></span>
               <input type="text" class="input-group-field padding-vertical-0 b-radius" placeholder="Usuario" id="username">
-              <span class="input-group-label b-radius">
-                <i class="step fi-key size-icon"></i>
-              </span>
+              <span class="input-group-label b-radius"><i class="step fi-key size-icon"></i></span>
               <input type="password" class="input-group-field padding-vertical-0 b-radius" placeholder="Contraseña" id="userpass">
               <div class="input-group-button">
                 <input type="submit" class="button primary b-radius font-bold" value="Ingresar">
@@ -67,12 +67,12 @@
             </div>
           </div>
         </nav>
+        <!-- <= Seccion de Publicación <=> Acesso a las redes sociales <=> Facebook, Instagram y Twitter =>
+                Responsiva no se visualiza en pantallas mobiles (-640px) => -->
         <section class="row columns small-12 callout primary border-none wh-text padding-0 margin-0 margin-top-1 hide-for-small-only">
           <div class="row callout success bordered rounded margin-left-1 padding-0 margin-right-1">
             <div class="columns medium-1 large-1 padding-0 margin-0 text-center">
-              <a href="#!">
-                <i class="step fi-social-facebook size-icon"></i>
-              </a>
+              <a href="#!"><i class="step fi-social-facebook size-icon"></i></a>
             </div>
             <div class="columns medium-10 medium-offset-1 large-10 large-offset-1 padding-0 margin-0 text-left">
               <div class="callout primary small border-none margin-0">
@@ -84,9 +84,7 @@
           </div>
           <div class="row callout success bordered rounded margin-left-1 padding-0 margin-right-1">
             <div class="columns medium-1 large-1 padding-0 margin-0 text-center">
-              <a href="#!">
-                <i class="step fi-social-instagram size-icon"></i>
-              </a>
+              <a href="#!"><i class="step fi-social-instagram size-icon"></i></a>
             </div>
             <div class="columns medium-10 medium-offset-1 large-10 large-offset-1 padding-0 margin-0 text-left">
               <div class="callout primary small border-none margin-0">
@@ -98,9 +96,7 @@
           </div>
           <div class="row callout success bordered rounded margin-left-1 padding-0 margin-right-1">
             <div class="columns medium-1 large-1 padding-0 margin-0 text-center">
-              <a href="#!">
-                <i class="step fi-social-twitter size-icon"></i>
-              </a>
+              <a href="#!"><i class="step fi-social-twitter size-icon"></i></a>
             </div>
             <div class="columns medium-10 medium-offset-1 large-10 large-offset-1 padding-0 margin-0 text-left">
               <div class="callout primary small border-none margin-0">
@@ -114,14 +110,14 @@
       </div>
     </header>
     <div class="row callout success border-none padding-0 padding-vertical-1 margin-vertical-0">
+      <!-- // Sección de Busqueda, Navegación Lateral e Interacciones del Blog \\ Busqueda/Favoritos/Historial 
+              Responsiva no se visualiza en pantallas mobiles (-640px) // -->
       <section class="columns medium-4 large-4 padding-0 hide-for-small-only">
         <div class="callout warning border-none b-radius">
           <div class="input-group padding-horizontal-0">
             <input type="search" class="input-group-field b-radius" placeholder="Buscar..." id="searcher">
             <div class="input-group-button">
-              <button type="button" class="button primary b-radius font-bold">
-                <i class="step fi-magnifying-glass size-icon"></i>
-              </button>
+              <button type="button" class="button primary b-radius font-bold"><i class="step fi-magnifying-glass size-icon"></i> </button>
             </div>
           </div>
           <ul class="menu vertical padding-vertical-1 padding-0" id="side-menu">
@@ -138,8 +134,7 @@
                 <i class="step fi-heart size-icon padding-right-1"></i>Postres</a>
             </li>
           </ul>
-          <h6 class="font-bold margin-left-1">Favoritos
-            <br>
+          <h6 class="font-bold margin-left-1">Favoritos<br>
             <small class="text-left">Selección de bloggeros..</small>
           </h6>
           <div class="row margin-0">
@@ -190,9 +185,11 @@
           </table>
         </div>
       </section>
+      <!-- ** Cuerpo de Artículos ** Artículos publicados en el blog y comentarios de los usuarios ** -->
       <article class="columns small-12 medium-8 large-8 padding-0">
         <div class="callout secondary padding-0 b-radius">
           <div class="row margin-0">
+            <!-- ## Artículo #1 del Blog ##  -->
             <div class="card columns small-12 padding-top-1 margin-0 bordered shadow b-radius">
               <div class="card-divider b-radius">
                 <h4 class="h4 font-bold margin-0 padding-0">Pescado a la Parrilla ó Asado
@@ -206,14 +203,13 @@
                   blanca como la tilapia son especialmente bajos en grasa, mientras que los pescados grasos como el salmón tienen alta concentración de Omega-3. Aún cuando elegir pescado no es fácil, cocinarlo siempre puede ser súper simple. Una de las
                   maneras más fáciles y saludables es hornearlo en papel pergamino, pero asarlo a la parrilla es una otra opción fácil para cuando quieres algo rápido y crujiente. Para hacer un adobo rápido y fácil, prueba mezclando aceite, salsa de soya,
                   ajo, mostaza Dijon y cebollines en proporciones según tu gusto. (Cuanta más mostaza, más picante, cuanta más salsa de soya, más salado, etc.) Esto funcionará básicamente con todo.
-                </p>
-                <hr>
+                </p><hr>
+                <!-- +++ Ingreso de Comentarios y comentarios realizados +++ Art. #1 -->
                 <div class="input-group padding-horizontal-0">
                   <textarea type="textarea" class="input-group-field" placeholder="Comenta este artículo..." id="art-comment-01"></textarea>
                   <div class="input-group-button">
                     <button type="button" class="button primary font-bold rounded height-75">
-                      <i class="step fi-pencil size-icon"></i>
-                      <i class="step fi-torso size-icon"></i>
+                      <i class="step fi-pencil size-icon"></i><i class="step fi-torso size-icon"></i>
                     </button>
                   </div>
                 </div>
@@ -250,8 +246,9 @@
               </div>
             </div>
           </div>
-
+          <!-- ============================================================================================================= -->
           <div class="row margin-0">
+            <!-- ## Artículo #2 del Blog ##  -->
             <div class="card columns small-12 padding-top-1 margin-0 bordered shadow b-radius">
               <div class="card-divider b-radius">
                 <h4 class="h4 font-bold margin-0 padding-0">Frittata de Vegetales
@@ -264,14 +261,13 @@
                   Las frittatas son útiles en muchas ocasiones, incluyendo cuando tienes que hacer el desayuno para un gran número de personas pues puedes usar las sobras de vegetales y preparar un platillo que comerás durante días. Las frittatas pueden preparase con cualquier
                   vegetal que tengas disponible, así que usa las recetas como una guía en lugar de seguirlas al pie de la letra. No estás obligado a usar queso (esta frittata de cebolla y papas no lleva queso), pero si lo usas, el queso de cabra es lo
                   mejor porque tiene mucho menos calorías y grasas que otros quesos. Úsalo con champiñones y hierbas o con alcachofas y puerros.
-                </p>
-                <hr>
+                </p><hr>
+                <!-- +++ Ingreso de Comentarios y comentarios realizados +++ Art. #2 -->
                 <div class="input-group padding-horizontal-0">
                   <textarea type="textarea" class="input-group-field" placeholder="Comenta este artículo..." id="art-comment-01"></textarea>
                   <div class="input-group-button">
                     <button type="button" class="button primary font-bold rounded height-75">
-                      <i class="step fi-pencil size-icon"></i>
-                      <i class="step fi-torso size-icon"></i>
+                      <i class="step fi-pencil size-icon"></i><i class="step fi-torso size-icon"></i>
                     </button>
                   </div>
                 </div>
@@ -298,8 +294,9 @@
               </div>
             </div>
           </div>
-
+          <!-- ============================================================================================================= -->
           <div class="row margin-0">
+            <!-- ## Artículo #3 del Blog ##  -->
             <div class="card columns small-12 padding-top-1 margin-0 bordered shadow b-radius">
               <div class="card-divider b-radius">
                 <h4 class="h4 font-bold margin-0 padding-0">Sopa de Verduras
@@ -313,14 +310,13 @@
                   y corteza de parmesano para el sabor. Pero realmente no necesitas una receta. Solamente puedes picar cualquier verdura que tengas a mano y saltearla en aceite de oliva en una gran olla con el condimento que elijas. (Si estás utilizando
                   pollo, trocéalo y saltéalo primero). Añade una lata de frijoles escurridos y saltea uno o dos minutos más. Añade caldo y llévalo al punto de ebullición. Baja la temperatura para hervir a fuego lento, tápalo y deja que se cocine aproximadamente
                   20 minutos. Si quieres fideos, cocínalos por separado y añádelos al final. Sírvela en tazones (grandes) y disfrútala.
-                </p>
-                <hr>
+                </p><hr>
+                <!-- +++ Ingreso de Comentarios y comentarios realizados +++ Art. #3 -->
                 <div class="input-group padding-horizontal-0">
                   <textarea type="textarea" class="input-group-field" placeholder="Comenta este artículo..." id="art-comment-01"></textarea>
                   <div class="input-group-button">
                     <button type="button" class="button primary font-bold rounded height-75">
-                      <i class="step fi-pencil size-icon"></i>
-                      <i class="step fi-torso size-icon"></i>
+                      <i class="step fi-pencil size-icon"></i><i class="step fi-torso size-icon"></i>
                     </button>
                   </div>
                 </div>
@@ -337,11 +333,12 @@
               </div>
             </div>
           </div>
-
+          <!-- ============================================================================================================= -->
         </div>
       </article>
     </div>
   </div>
+  <!-- Referencia Javascript de Frameworks y funcionalidad del Blog -->
   <script src="js/vendor/jquery.js "></script>
   <script src="js/vendor/what-input.js "></script>
   <script src="js/vendor/foundation.js "></script>

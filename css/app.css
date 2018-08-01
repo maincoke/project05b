@@ -1,5 +1,6 @@
 /* -- // Estilos propios del Blog ---->
-*/
+ Se utilizaron algunos de los helpers del Framework Foundation 6
+ y se forzaron (override) sus atributos y propiedades con #!important*/
 
 .body-style {
   background: url("../img/bg-blog.jpg") no-repeat fixed center center !important;
@@ -106,7 +107,8 @@ textarea {
 }
 
 
-/* ** -----------/- Estilo responsivo para los tamaños de Pantalla -\------------ ** */
+/* ** -----------/- Estilo responsivo para los tamaños de Pantalla -\------------ ** 
+** Estilo para pantallas de un maximo de ancho = 1024px */
 
 @media (max-width: 1024px) {
   #side-menu li a.size-icon,
@@ -114,6 +116,9 @@ textarea {
     font-size: 16px;
   }
 }
+
+
+/* Estilo para pantallas de un maximo de ancho = 764px */
 
 @media (max-width: 764px) {
   h5,
@@ -129,6 +134,9 @@ textarea {
     font-size: 85%;
   }
 }
+
+
+/* Estilo para pantallas de un maximo de ancho = 638px */
 
 @media (max-width: 638px) {
   .img-logo-bar {
